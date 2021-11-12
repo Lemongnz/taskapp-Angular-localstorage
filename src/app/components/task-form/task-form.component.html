@@ -1,0 +1,9 @@
+<div class="cardWrap">
+    <div class="card">
+        <form (submit)="addTask(newTitle, newDescription)">
+            <input class="title" type="text" placeholder="Task" #newTitle>
+            <textarea class="description" type="text" placeholder="Description" #newDescription></textarea>
+            <button  class="button">Send</button>
+        </form>
+    </div>
+</div>

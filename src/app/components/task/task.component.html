@@ -1,0 +1,11 @@
+<div class="card" *ngFor="let task of tasks">
+    <div class="cardHeader">
+        <h3>{{ task.title }}</h3>
+        <button class="expand" (click)="task.hide = !task.hide">Expandir</button>
+        <button class="delete" (click)="deleteTask(task)">Borrar</button>
+    </div>
+    <div class="cardBody" [hidden]="task.hide">
+        <p>{{ task.description }}</p>
+    </div>
+    
+</div>

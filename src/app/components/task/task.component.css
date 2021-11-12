@@ -1,0 +1,40 @@
+.card {
+    background-color: rgb(151, 151, 151);
+    margin: 5px 15px;
+    border-radius: 5px;
+    min-height: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+h3 {
+    margin-right: auto;
+}
+
+.expand {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(100, 146, 92);
+}
+
+.delete {
+    margin: 0 5px;
+    background-color: rgb(177, 92, 92);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cardBody {
+    background-color: rgb(180, 180, 180);
+    
+}
